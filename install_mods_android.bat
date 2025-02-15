@@ -11,9 +11,9 @@ copy "./json.lua" "./game"
 
 python copypatches.py
 
-xcopy /E /Y "./1" "./game"
-xcopy /E /Y "./2" "./game"
-xcopy /E /Y "./3" "./game"
+xcopy /E /Y "./1" "./game/1/*"
+xcopy /E /Y "./2" "./game/2/*"
+xcopy /E /Y "./3" "./game/3/*"
 copy "./settings.jkr" "./game"
 
 
